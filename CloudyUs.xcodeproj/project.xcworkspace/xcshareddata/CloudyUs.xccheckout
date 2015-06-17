@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>875CFED5-3CC7-40DE-9672-25F6F766FC8A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CloudyUs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99EA95D1A1D079576BCB68950DA0F851838391DA</key>
+		<string>https://bitbucket.org/ggiosteam/menu-mac-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CloudyUs.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99EA95D1A1D079576BCB68950DA0F851838391DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/ggiosteam/menu-mac-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99EA95D1A1D079576BCB68950DA0F851838391DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99EA95D1A1D079576BCB68950DA0F851838391DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Menu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

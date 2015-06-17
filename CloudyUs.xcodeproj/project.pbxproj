@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581959651B2FC70E00F109D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581959641B2FC70E00F109D2 /* Cocoa.framework */; };
+		5819596F1B2FC70E00F109D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5819596D1B2FC70E00F109D2 /* InfoPlist.strings */; };
+		581959711B2FC70E00F109D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581959701B2FC70E00F109D2 /* main.m */; };
+		581959751B2FC70E00F109D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 581959731B2FC70E00F109D2 /* Credits.rtf */; };
+		581959781B2FC70E00F109D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581959771B2FC70E00F109D2 /* AppDelegate.m */; };
+		5819597B1B2FC70E00F109D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581959791B2FC70E00F109D2 /* MainMenu.xib */; };
+		5819597D1B2FC70E00F109D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5819597C1B2FC70E00F109D2 /* Images.xcassets */; };
+		581959841B2FC70E00F109D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581959831B2FC70E00F109D2 /* XCTest.framework */; };
+		581959851B2FC70E00F109D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581959641B2FC70E00F109D2 /* Cocoa.framework */; };
+		5819598D1B2FC70F00F109D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5819598B1B2FC70F00F109D2 /* InfoPlist.strings */; };
+		5819598F1B2FC70F00F109D2 /* MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819598E1B2FC70F00F109D2 /* MenuTests.m */; };
+		581959991B2FC87C00F109D2 /* switchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 581959981B2FC87C00F109D2 /* switchIcon.png */; };
+		581959A81B2FF98400F109D2 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 581959A71B2FF98400F109D2 /* cloud.png */; };
+		581959AB1B30000A00F109D2 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = 581959A91B30000A00F109D2 /* status.png */; };
+		581959AC1B30000A00F109D2 /* status-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 581959AA1B30000A00F109D2 /* status-selected.png */; };
+		581959B11B30018200F109D2 /* BCStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581959AE1B30018100F109D2 /* BCStatusItemView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		581959B21B30018200F109D2 /* NSStatusItem+BCStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 581959B01B30018200F109D2 /* NSStatusItem+BCStatusItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581959861B2FC70E00F109D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581959591B2FC70E00F109D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581959601B2FC70E00F109D2;
+			remoteInfo = Menu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581959611B2FC70E00F109D2 /* CloudyUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudyUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581959641B2FC70E00F109D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		581959671B2FC70E00F109D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		581959681B2FC70E00F109D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		581959691B2FC70E00F109D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5819596C1B2FC70E00F109D2 /* CloudyUs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudyUs-Info.plist"; sourceTree = "<group>"; };
+		5819596E1B2FC70E00F109D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		581959701B2FC70E00F109D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		581959721B2FC70E00F109D2 /* CloudyUs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudyUs-Prefix.pch"; sourceTree = "<group>"; };
+		581959741B2FC70E00F109D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		581959761B2FC70E00F109D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		581959771B2FC70E00F109D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5819597A1B2FC70E00F109D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5819597C1B2FC70E00F109D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		581959821B2FC70E00F109D2 /* CloudyUsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudyUsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581959831B2FC70E00F109D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5819598A1B2FC70F00F109D2 /* CloudyUsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudyUsTests-Info.plist"; sourceTree = "<group>"; };
+		5819598C1B2FC70F00F109D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5819598E1B2FC70F00F109D2 /* MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTests.m; sourceTree = "<group>"; };
+		581959981B2FC87C00F109D2 /* switchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchIcon.png; sourceTree = "<group>"; };
+		581959A71B2FF98400F109D2 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		581959A91B30000A00F109D2 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status.png; sourceTree = "<group>"; };
+		581959AA1B30000A00F109D2 /* status-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-selected.png"; sourceTree = "<group>"; };
+		581959AD1B30018100F109D2 /* BCStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCStatusItemView.h; sourceTree = "<group>"; };
+		581959AE1B30018100F109D2 /* BCStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCStatusItemView.m; sourceTree = "<group>"; };
+		581959AF1B30018100F109D2 /* NSStatusItem+BCStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStatusItem+BCStatusItem.h"; sourceTree = "<group>"; };
+		581959B01B30018200F109D2 /* NSStatusItem+BCStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStatusItem+BCStatusItem.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5819595E1B2FC70E00F109D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581959651B2FC70E00F109D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5819597F1B2FC70E00F109D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581959851B2FC70E00F109D2 /* Cocoa.framework in Frameworks */,
+				581959841B2FC70E00F109D2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581959581B2FC70E00F109D2 = {
+			isa = PBXGroup;
+			children = (
+				5819596A1B2FC70E00F109D2 /* CloudyUs */,
+				581959881B2FC70E00F109D2 /* MenuTests */,
+				581959631B2FC70E00F109D2 /* Frameworks */,
+				581959621B2FC70E00F109D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581959621B2FC70E00F109D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581959611B2FC70E00F109D2 /* CloudyUs.app */,
+				581959821B2FC70E00F109D2 /* CloudyUsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581959631B2FC70E00F109D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581959641B2FC70E00F109D2 /* Cocoa.framework */,
+				581959831B2FC70E00F109D2 /* XCTest.framework */,
+				581959661B2FC70E00F109D2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		581959661B2FC70E00F109D2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				581959671B2FC70E00F109D2 /* AppKit.framework */,
+				581959681B2FC70E00F109D2 /* CoreData.framework */,
+				581959691B2FC70E00F109D2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5819596A1B2FC70E00F109D2 /* CloudyUs */ = {
+			isa = PBXGroup;
+			children = (
+				581959A01B2FCE3E00F109D2 /* BCS */,
+				581959A41B2FCE7000F109D2 /* MainVCs */,
+				581959A31B2FCE6A00F109D2 /* AppDelegate */,
+				581959A11B2FCE5200F109D2 /* Resource */,
+				5819597C1B2FC70E00F109D2 /* Images.xcassets */,
+				5819596B1B2FC70E00F109D2 /* Supporting Files */,
+			);
+			name = CloudyUs;
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		5819596B1B2FC70E00F109D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5819596C1B2FC70E00F109D2 /* CloudyUs-Info.plist */,
+				5819596D1B2FC70E00F109D2 /* InfoPlist.strings */,
+				581959701B2FC70E00F109D2 /* main.m */,
+				581959721B2FC70E00F109D2 /* CloudyUs-Prefix.pch */,
+				581959731B2FC70E00F109D2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		581959881B2FC70E00F109D2 /* MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				5819598E1B2FC70F00F109D2 /* MenuTests.m */,
+				581959891B2FC70F00F109D2 /* Supporting Files */,
+			);
+			path = MenuTests;
+			sourceTree = "<group>";
+		};
+		581959891B2FC70F00F109D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5819598A1B2FC70F00F109D2 /* CloudyUsTests-Info.plist */,
+				5819598B1B2FC70F00F109D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		581959A01B2FCE3E00F109D2 /* BCS */ = {
+			isa = PBXGroup;
+			children = (
+				581959AD1B30018100F109D2 /* BCStatusItemView.h */,
+				581959AE1B30018100F109D2 /* BCStatusItemView.m */,
+				581959AF1B30018100F109D2 /* NSStatusItem+BCStatusItem.h */,
+				581959B01B30018200F109D2 /* NSStatusItem+BCStatusItem.m */,
+			);
+			name = BCS;
+			sourceTree = "<group>";
+		};
+		581959A11B2FCE5200F109D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				581959A21B2FCE5800F109D2 /* Image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		581959A21B2FCE5800F109D2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				581959A91B30000A00F109D2 /* status.png */,
+				581959AA1B30000A00F109D2 /* status-selected.png */,
+				581959A71B2FF98400F109D2 /* cloud.png */,
+				581959981B2FC87C00F109D2 /* switchIcon.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		581959A31B2FCE6A00F109D2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				581959761B2FC70E00F109D2 /* AppDelegate.h */,
+				581959771B2FC70E00F109D2 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		581959A41B2FCE7000F109D2 /* MainVCs */ = {
+			isa = PBXGroup;
+			children = (
+				581959791B2FC70E00F109D2 /* MainMenu.xib */,
+			);
+			name = MainVCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581959601B2FC70E00F109D2 /* CloudyUs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581959921B2FC70F00F109D2 /* Build configuration list for PBXNativeTarget "CloudyUs" */;
+			buildPhases = (
+				5819595D1B2FC70E00F109D2 /* Sources */,
+				5819595E1B2FC70E00F109D2 /* Frameworks */,
+				5819595F1B2FC70E00F109D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudyUs;
+			productName = Menu;
+			productReference = 581959611B2FC70E00F109D2 /* CloudyUs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581959811B2FC70E00F109D2 /* CloudyUsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581959951B2FC70F00F109D2 /* Build configuration list for PBXNativeTarget "CloudyUsTests" */;
+			buildPhases = (
+				5819597E1B2FC70E00F109D2 /* Sources */,
+				5819597F1B2FC70E00F109D2 /* Frameworks */,
+				581959801B2FC70E00F109D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581959871B2FC70E00F109D2 /* PBXTargetDependency */,
+			);
+			name = CloudyUsTests;
+			productName = MenuTests;
+			productReference = 581959821B2FC70E00F109D2 /* CloudyUsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581959591B2FC70E00F109D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___GREENGLOBAL___";
+				TargetAttributes = {
+					581959811B2FC70E00F109D2 = {
+						TestTargetID = 581959601B2FC70E00F109D2;
+					};
+				};
+			};
+			buildConfigurationList = 5819595C1B2FC70E00F109D2 /* Build configuration list for PBXProject "CloudyUs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581959581B2FC70E00F109D2;
+			productRefGroup = 581959621B2FC70E00F109D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581959601B2FC70E00F109D2 /* CloudyUs */,
+				581959811B2FC70E00F109D2 /* CloudyUsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5819595F1B2FC70E00F109D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581959AC1B30000A00F109D2 /* status-selected.png in Resources */,
+				5819596F1B2FC70E00F109D2 /* InfoPlist.strings in Resources */,
+				581959AB1B30000A00F109D2 /* status.png in Resources */,
+				5819597D1B2FC70E00F109D2 /* Images.xcassets in Resources */,
+				581959751B2FC70E00F109D2 /* Credits.rtf in Resources */,
+				581959A81B2FF98400F109D2 /* cloud.png in Resources */,
+				581959991B2FC87C00F109D2 /* switchIcon.png in Resources */,
+				5819597B1B2FC70E00F109D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581959801B2FC70E00F109D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5819598D1B2FC70F00F109D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5819595D1B2FC70E00F109D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581959781B2FC70E00F109D2 /* AppDelegate.m in Sources */,
+				581959B21B30018200F109D2 /* NSStatusItem+BCStatusItem.m in Sources */,
+				581959B11B30018200F109D2 /* BCStatusItemView.m in Sources */,
+				581959711B2FC70E00F109D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5819597E1B2FC70E00F109D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5819598F1B2FC70F00F109D2 /* MenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581959871B2FC70E00F109D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581959601B2FC70E00F109D2 /* CloudyUs */;
+			targetProxy = 581959861B2FC70E00F109D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5819596D1B2FC70E00F109D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5819596E1B2FC70E00F109D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		581959731B2FC70E00F109D2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581959741B2FC70E00F109D2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		581959791B2FC70E00F109D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5819597A1B2FC70E00F109D2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5819598B1B2FC70F00F109D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5819598C1B2FC70F00F109D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581959901B2FC70F00F109D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		581959911B2FC70F00F109D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		581959931B2FC70F00F109D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/CloudyUs-Prefix.pch";
+				INFOPLIST_FILE = "Menu/CloudyUs-Info.plist";
+				PRODUCT_NAME = CloudyUs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		581959941B2FC70F00F109D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/CloudyUs-Prefix.pch";
+				INFOPLIST_FILE = "Menu/CloudyUs-Info.plist";
+				PRODUCT_NAME = CloudyUs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		581959961B2FC70F00F109D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Menu.app/Contents/MacOS/Menu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/Menu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MenuTests/CloudyUsTests-Info.plist";
+				PRODUCT_NAME = CloudyUsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		581959971B2FC70F00F109D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Menu.app/Contents/MacOS/Menu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/Menu-Prefix.pch";
+				INFOPLIST_FILE = "MenuTests/CloudyUsTests-Info.plist";
+				PRODUCT_NAME = CloudyUsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5819595C1B2FC70E00F109D2 /* Build configuration list for PBXProject "CloudyUs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581959901B2FC70F00F109D2 /* Debug */,
+				581959911B2FC70F00F109D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581959921B2FC70F00F109D2 /* Build configuration list for PBXNativeTarget "CloudyUs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581959931B2FC70F00F109D2 /* Debug */,
+				581959941B2FC70F00F109D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581959951B2FC70F00F109D2 /* Build configuration list for PBXNativeTarget "CloudyUsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581959961B2FC70F00F109D2 /* Debug */,
+				581959971B2FC70F00F109D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581959591B2FC70E00F109D2 /* Project object */;
+}
